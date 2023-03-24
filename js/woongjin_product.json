@@ -1,0 +1,202 @@
+[
+    [
+        {
+          "img":"/woongjin/images/제품소개/알로에.png",
+          "name": "자연은 알로에",
+          "option": "180mL 병\n340mL PET\n500mL PET\n1.5L PET",
+          "component": "알로에 41% [알로에베라겔즙 8%(태국산), 알로에베라겔 33%(멕시코산)]"
+        },
+        {
+          "img":"/woongjin/images/제품소개/석류.png",
+          "name": "자연은 석류",
+          "option": "180mL 병 1.5L PET",
+          "component": "석류농축액 4.247 %(고형분 65 %) [석류과즙 23 %]"
+        },
+        {
+          "img":"/woongjin/images/제품소개/제주감귤.png",
+          "name": "자연은 제주감귤",
+          "option": "180mL 병 500mL PET 1.5L PET",
+          "component": "감귤농축액 7.5 %(고형분 60 %)[감귤과즙 50 %]"
+        },
+        {
+          "img":"/woongjin/images/제품소개/오렌지100.png",
+          "name": "자연은 오렌지100",
+          "option": "180mL 병  1.5L PET",
+          "component": "오렌지농축액 16.924 %(고형분 65 %)[오렌지과즙 100 %](천연향료, 비타민C, 구연산, 합성향료, 스테비올배당체 포함)"
+        },
+        {
+          "img":"/woongjin/images/제품소개/고칼슘오렌지100.png",
+          "name": "자연은 고칼슘오렌지100",
+          "option": "180mL 병 500mL PET 1.5L PET",
+          "component": "오렌지농축액 17.6 %(고형분 65 %)[오렌지과즙 100 %](젖산칼슘, 합성향료, 구연산, 천연향료, 비타민C, 구연산삼나트륨, 스테비올배당체 포함)"
+        },
+        {
+          "img":"/woongjin/images/제품소개/당근100.png",
+          "name": "자연은 당근100",
+          "option": "180mL 병  1.5L PET",
+          "component": "당근농축액 17.204 %(배합함량 : 당근 99.65 %)[당근즙으로 100 %](구연산, 합성향료, 비타민C, 스테비올배당체 포함)"
+        },
+        {
+          "img":"/woongjin/images/제품소개/납작복숭아.png",
+          "name": "자연은 납작복숭아",
+          "option": "340mL PET",
+          "component": "복숭아농축퓨레 4.29 %(고형분 31 %)[복숭아과즙 19 %], 납작복숭아과즙 1.14 %(고형분 10%)"
+        },
+        {
+          "img":"/woongjin/images/제품소개/샤인머스캣.png",
+          "name": "자연은 샤인머스캣",
+          "option": "340mL PET  500mL PET 1.5L PET",
+          "component": "백포도농축액 1.6177 %(고형분 68 %)[백포도과즙 10 %], 천연향료(샤인머스캣향) 0.02 %,알로에베라겔즙 5 %(알로에베라겔절편 45 % 함유)"
+        },
+        {
+          "img":"/woongjin/images/제품소개/토마토.png",
+          "name": "자연은 토마토",
+          "option": "180mL 병  340mL PET 500mL PET 1.5L PET",
+          "component": "토마토페이스트 8.919 %(고형분 37 %)[토마토즙 66 %]"
+        },
+        {
+          "img":"/woongjin/images/제품소개/블루베리.png",
+          "name": "자연은 블루베리",
+          "option": "180mL 병  1.5L PET",
+          "component": "블루베리농축액 1.54 %(고형분 65 %)[블루베리과즙 10 %]"
+        },
+        {
+          "img":"/woongjin/images/제품소개/복분자.png",
+          "name": "자연은 복분자",
+          "option": "180mL 병",
+          "component": "복분자농축액 0.5 %(고형분 50 %)[복분자과즙 5 %]"
+        },
+        {
+          "img":"/woongjin/images/제품소개/포도100.png",
+          "name": "자연은 포도100",
+          "option": "180mL 병 500mL PET  1.5L PET",
+          "component": "포도농축액 16.985 %(고형분 68 %)[포도과즙 100 %](합성향료, 구연산, 비타민C, 스테비올배당체 포함)"
+        },
+        {
+          "img":"/woongjin/images/제품소개/사과100.png",
+          "name": "자연은 사과100",
+          "option": "180mL 병  500mL PET  1.5L PET",
+          "component": "사과농축액 15.714 %(고형분 70 %)[사과과즙 100 %](합성향료, 구연산, 비타민C, DL-사과산, 스테비올배당체 포함)"
+        },
+        {
+          "img":"/woongjin/images/제품소개/망고.png",
+          "name": "자연은 망고",
+          "option": "180mL CAN  1.5L PET",
+          "component": "망고농축퓨레 10 %(고형분 28 %)[망고과즙 20 %]"
+        },
+        {
+          "img":"/woongjin/images/제품소개/배.png",
+          "name": "자연은 배",
+          "option": "1.5L PET",
+          "component": "배퓨레 12 % [배 99.95 %]"
+        },
+        {
+          "img":"/woongjin/images/제품소개/타르체리.png",
+          "name": "자연은 타르체리",
+          "option": "1.5L PET",
+          "component": "몽모랑시 타트체리 주스농축액 2.1539 %(고형분 65 %)[타트체리과즙 10 %]"
+        }
+      ],
+      [
+        {
+          "img":"/woongjin/images/제품소개/요거상큼복숭아.png",
+          "name": "자연은 요거상큼 복숭아",
+          "option": "340mL PET 1.5L PET",
+          "component": "복숭아농축액 0.4%(고형분 70%) [복숭아과즙 4%], 탈지분유 0.6%"
+        },
+        {
+          "img":"/woongjin/images/제품소개/요거새콤파인애플.png",
+          "name": "자연은 요거풋풋 사과",
+          "option": "340mL PET\n 1.5L PET",
+          "component": "사과농축액 0.572%(고형분 70%) [사과과즙 4%], 탈지분유 0.6%"
+        },
+        {
+          "img":"/woongjin/images/제품소개/요거풋풋사과.png",
+          "name": "자연은 요거새콤 파인애플",
+          "option": "340mL PET 1.5L PET",
+          "component": "파인애플농축액 0.8%(고형분 60%) [파인애플과즙 4%], 탈지분유 0.6%"
+        }
+      ],
+      [
+        {
+          "img":"/woongjin/images/제품소개/잘자란유기농오렌지.png",
+          "name": "자연은 잘자란유기농 오렌지",
+          "option": "100mL 파우치",
+          "component": "유기농 오렌지과즙 62%"
+        },
+        {
+          "img":"/woongjin/images/제품소개/잘자란유기농포도.png",
+          "name": "자연은 잘자란유기농 포도",
+          "option": "100mL 파우치",
+          "component": "유기농 포도과즙 80%"
+        },
+        {
+          "img":"/woongjin/images/제품소개/배도라지.png",
+          "name": "자연은 잘자란 배도라지",
+          "option": "100mL 파우치",
+          "component": "배농축액 16 %(고형분 72 %)[배과즙 100 %], 대추농축액 1.66 %(고형분 60 %), 도라지농축액 0.1"
+        }
+      ],
+      [
+        {
+          "img":"/woongjin/images/제품소개/싱그런세트.png",
+          "name": "싱그런 음료세트",
+          "option": "오렌지 / 포도 /알로에",
+          "component": "180mL x 12병"
+        },
+        {
+          "img":"/woongjin/images/제품소개/종합세트.png",
+          "name": "종합 음료세트",
+          "option": "알로에 / 토마토 / 제주감귤",
+          "component": "180mL x 12병"
+        },
+        {
+          "img":"/woongjin/images/제품소개/제주감귤세트.png",
+          "name": "제주감귤 세트",
+          "option": "제주감귤",
+          "component": "180mL x 12병"
+        },
+        {
+          "img":"/woongjin/images/제품소개/오렌지세트.png",
+          "name": "오렌지100 세트",
+          "option": "오렌지100",
+          "component": "180mL x 12병"
+        },
+        {
+          "img":"/woongjin/images/제품소개/포도세트.png",
+          "name": "포도 세트",
+          "option": "포도",
+          "component": "180mL x 12병"
+        },
+        {
+          "img":"/woongjin/images/제품소개/아름드리세트.png",
+          "name": "아름드리 음료세트",
+          "option": "알로에 / 포도 / 제주감귤",
+          "component": "180mL x 12병"
+        },
+        {
+          "img":"/woongjin/images/제품소개/프리미엄세트.png",
+          "name": "프리미엄 음료세트",
+          "option": "석류 / 포도 / 사과",
+          "component": "180mL x 12병"
+        },
+        {
+          "img":"/woongjin/images/제품소개/석류세트.png",
+          "name": "석류 세트",
+          "option": "석류",
+          "component": "180mL x 12병"
+        },
+        {
+          "img":"/woongjin/images/제품소개/당근세트.png",
+          "name": "당근 세트",
+          "option": "당근",
+          "component": "180mL x 12병"
+        },
+        {
+          "img":"/woongjin/images/제품소개/복분자세트.png",
+          "name": "복분자 세트",
+          "option": "복분자",
+          "component": "180mL x 12병"
+        }
+      ] 
+]
