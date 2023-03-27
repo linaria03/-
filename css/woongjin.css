@@ -1,6 +1,6 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Stylish&display=swap');
 /* 구글폰트 noto sans korean */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
 /* fontawesome 아이콘 */
@@ -14,10 +14,10 @@
     /* overflow: hidden; */
 }
 :root {
-    font-family: 'Noto Sans KR', sans-serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Stylish', sans-serif;
 }
 .inner {
     width: 1200px;
@@ -34,6 +34,7 @@ a {
     text-decoration: none;
 }
 h2 {
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 4.375rem;
     padding: 0 20px;
 }
@@ -49,18 +50,15 @@ h2 {
 .art1 {
     height: 100%;
     width: 50%;
-    padding: 0 0 0 70px;
+    padding: 40px 0 40px 70px;
     display: flex;
     overflow: hidden;
 }
 .main_L {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-}
-.inner600 {
-    display: flex;
-    justify-content: flex-end;
-
+    flex-direction: column;
+    justify-content: space-between;
 }
 .inner600 img {
     position: absolute;
@@ -68,21 +66,22 @@ h2 {
     left: 22%;
     z-index: 10;
 }
-.logo {
+/* .logo {
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 270px;
+    color: #5B5B5B;
     font-size: 1.56rem;
-}
+} */
 .cont1_text {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-family: 'Inter', sans-serif;
     padding: 29px;
+    opacity: 0.7;
 }
 .cont1_text p::before {
     content: "\f111";
@@ -93,18 +92,18 @@ h2 {
 .cont2 {
     display: flex;
     flex-direction: column;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Stylish', sans-serif;
     /* padding: 10px; */
     gap: 27px;
 }
 .cont2 h3 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #2E7026;
 }
 .cont2 p {
     color: #2E7026;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 .art2 {
     width: 50%;
@@ -120,6 +119,7 @@ h2 {
     position: absolute;
     z-index: 20;
     position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .art2 h2 {
     font-size: 8.375rem;
@@ -131,6 +131,7 @@ h2 {
     display: flex;
     right: 0;
     position: absolute;
+    transition: all 1s ease-out;
 
 }
 .subText {
@@ -152,21 +153,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* main 슬라이드 */
 .swiper {
     width: 100%;
@@ -182,7 +168,7 @@ h2 {
     height: 550px;
     /* height: 100%; */
     align-items: center;
-    
+
 }
 
 .mainSwiper img {
@@ -192,7 +178,7 @@ h2 {
     object-fit: fill;
     /* padding: 0 10px; */
 }
-.swiper-slide {
+.mainSwiper .swiper-slide {
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -216,6 +202,7 @@ h2 {
 
 /* sec2 */
 .sec2 {
+    font-family: 'Noto Sans KR', sans-serif;
     height: 100vh;
     padding: 74px 0 0 70px;
     overflow: hidden;
@@ -245,9 +232,11 @@ h2 {
     position: relative;
     cursor: pointer;
     font-size: 1.875rem;
+    font-family: 'Nanum Gothic', sans-serif;
     border-bottom: 8px solid #ddd;
 }
 .tab ul li.button {
+    font-family: 'Nanum Gothic', sans-serif;
     border-bottom: 8px solid #333;
 }
 .tab > div {
@@ -359,15 +348,17 @@ h2 {
 
 /* sec3 */
 .sec3 {
+    font-family: 'Noto Sans KR', sans-serif;
     background: #F5FBEC;
     height: 100vh;
-    padding: 50px 0 0 70px;
+    padding: 70px 0 0 70px;
     overflow: hidden;
+}
+.sec3 h2{
+    padding: 0 20px 10px 20px;
 }
 .tab2 {
     width: 100%;
-    /* margin: 0 0 100px 0; */
-    /* position: relative; */
 }
 .tab2 ul {
     width: 100%;
@@ -385,11 +376,7 @@ h2 {
     background: #fff;
     border-radius: 12px;
 }
-.conBox {
-    width: 90%;
-    height: 80%;
-    background: #fff;
-}
+
 
 /* timeline */
 
@@ -404,7 +391,7 @@ h2 {
 }
 .timeline ol {
     /* font-size: 0; */
-    width: 100vw;
+    width: 100%;
     padding: 154px 0 0 127px;
     transition: all 1s;
 
@@ -419,8 +406,8 @@ h2 {
     border-top: 3px solid #C9ED93;
     display: flex;
     flex-direction: column;
-    /* /* align-items: center; */
-    transform: translateY(100px);
+    align-items: center;
+    /* transform: translateY(100px); */
 }
 
 .timeline ol li::after {
@@ -429,7 +416,7 @@ h2 {
     position: absolute;
     top: 0;
     /* left: calc(100% + 1px); */
-    left: 50%;
+    left: 47%;
     bottom: 0;
     width: 25px;
     height: 25px;
@@ -439,16 +426,28 @@ h2 {
     background: #2E7026;
     border-radius: 50%;
     border-top-right-radius: 0;
+    z-index: 100;
+}
+.timeline ol li::before{
+    content: '';
+    /* border-top: 3px solid #C9ED93; */
+    width: 300px;
+    height: 3px;
+    background: #C9ED93;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%, -100%);
+    z-index: 50;
 }
 
-
 .timeline ol li div {
-    position: absolute;
+    /* position: absolute; */
     /* position: relative; */
     /* left: calc(100% + 7px); */
-    left: 50%;
+    /* left: 50%; */
     /* width: 100%; */
-    transform: translateX(-46%);
+    /* transform: translateX(-46%); */
     width: 50%;
     height: 100%;
     padding: 15px;
@@ -467,19 +466,22 @@ h2 {
     height: 30px;
     font-size: 1.56rem;
     font-weight: bold;
-    transform: translateY(-260%);
+    transform: translateY(-210%);
     display: flex;
     justify-content: center;
 }
 .conBox p {
     padding: 10px 0 0 0;
     text-align: center;
+    opacity: 0.8;
 }
 .conBox {
     display: none;
+    overflow: hidden;
 }
 .conBox.on {
     display: flex;
+    justify-content: center;
 }
 .tab2 ul li.on {
     background: #2E7026;
@@ -491,6 +493,7 @@ h2 {
 
 /* sec4 */
 .sec4 {
+    font-family: 'Noto Sans KR', sans-serif;
     height: 100vh;
     padding: 50px 0 0 100px;
     overflow: hidden;
@@ -511,7 +514,8 @@ h2 {
 
 /* footer */
 footer {
-    width: 100vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background: #F5F5F5;
@@ -534,6 +538,7 @@ footer p {
     align-items: center;
     justify-content: center;
     font-size: 1.875rem;
+    word-spacing: -20px;
     font-weight: bold;
 }
 .site a:first-child::before {
@@ -546,10 +551,12 @@ footer p {
     width: 50%;
     height: 150px;
     background: #C9ED93;
-    padding: 45px 245px;
+    /* padding: 45px 245px; */
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 1.875rem;
+    word-spacing: -20px;
     font-weight: bold;
 }
 .site a:last-child::before {
@@ -557,8 +564,9 @@ footer p {
     padding: 0 10px;
 }
 .footerCont {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px 0;
 }
 .footer_L {
@@ -569,6 +577,7 @@ footer p {
 .footer_L img {
     width: 87px;
     height: 48px;
+    margin-bottom: 15px;
 }
 .footer_R {
     display: flex;
@@ -576,6 +585,10 @@ footer p {
     align-items: flex-end;
     gap: 5px;
 }
+.footer_R img {
+    margin-bottom: 15px;
+}
 .footer_R p {
     font-size: 0.875rem;
+    /* margin-top: 15px; */
 }
